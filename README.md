@@ -22,7 +22,7 @@ This project simulates a Zero Trust environment using pfSense and virtual machin
 
 ## 🖥️ Network Diagram
 
-![ZTNA Network Diagram](Network-diagram.png)
+![ZTNA Network Diagram](https://github.com/JenishPatel08/ztna-simulation-lab/blob/2d8b4f74ca4ca3313b11a21fa891442aa4df7f14/ZeroTrust-Network-Lab/Network-diagram.png)
 
 
 ## 🔒 RBAC Summary
