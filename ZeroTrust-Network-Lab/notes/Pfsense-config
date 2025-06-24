@@ -1,0 +1,12 @@
+# pfSense Firewall Configuration Notes
+
+- Anti-lockout rule enabled for safe admin access
+- RBAC implemented using firewall rules:
+    - Allow SSH only from 192.168.1.10 (admin)
+    - Block SSH from all other IPs (including employee/Kali)
+- Web UI and SSH services protected via LAN interface
+- Firewall logs show:
+    - Admin SSH: Allowed
+    - Employee SSH: Blocked
+
+🧠 This proves Zero Trust enforcement using microsegmentation + least privilege.
