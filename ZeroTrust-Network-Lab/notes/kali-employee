@@ -1,0 +1,14 @@
+# Kali (Employee) VM - Access Notes
+
+- IP Address: 192.168.1.20
+- Role: Employee / Untrusted User
+- Tests Performed:
+  - Ping to pfSense: ✅ Successful (ICMP allowed)
+  - SSH to pfSense (admin@192.168.1.1): ❌ Failed (Blocked by pfSense firewall)
+  - Nmap Scan:
+      - Before firewall rules: Some ports were visible
+      - After RBAC rules: All ports hidden or filtered
+
+🧠 Conclusion:
+Firewall correctly blocked SSH and sensitive ports for employee.
+This enforces the Zero Trust principle of "deny by default".
