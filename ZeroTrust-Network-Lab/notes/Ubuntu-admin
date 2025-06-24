@@ -1,0 +1,11 @@
+# Ubuntu (Admin) VM - Access Notes
+
+- IP Address: 192.168.1.10
+- Role: Admin / Trusted User
+- Tests Performed:
+  - Ping to pfSense: ✅ Successful
+  - SSH to pfSense: ✅ Successful (access to manage firewall)
+  - Nmap Scan: ✅ SSH port (22) visible and open
+
+🧠 Conclusion:
+Admin is able to access pfSense securely. Role-based access enforced using IP-based firewall rules in pfSense.
