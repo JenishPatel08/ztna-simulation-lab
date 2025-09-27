@@ -57,9 +57,3 @@ This project simulates a Zero Trust environment using pfSense and virtual machin
 - Included: Firewall rule screenshots, SSH attempts, IP configuration, and `nmap` results
 - Screenshots show access being enforced based on identity (IP)
 
-
-## 🧠 What You Learn
-
-- How Zero Trust architecture works in practice
-- How to build secure micro-networks using pfSense
-- How to simulate internal and external threats using free tools
